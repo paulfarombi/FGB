@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+body{
+    background-color: red;
+    background: url('./images/img1.jpg') no-repeat center center / cover;
+    /* background : no-repeat;
+    background-size: cover;
+    background-position:background:
+    center; */
+
+}
+/* multiple id selector*/
+#Welcome,#about {
+    color: blue;
+    border: 1px solid black;
+}
+
+
+
+.text{
+    font-family: 'Square Peg', cursive;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+}
+/* nested selector */
+#about .para{
+    font-size: 20px;
+    color: rgb(5, 105, 19);
+}

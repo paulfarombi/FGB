@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(207, 207, 25);
+}
+a{
+    text-decoration: none;
+    color: rgb(15, 4, 65);
+}
+a:hover{
+    color: darkgreen;
+}
+
+.button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: darkgreen;
+}

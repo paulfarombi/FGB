@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="#">
+        <h1>Application Form</h1>
+        <p>please fill out this form below.</p>
+        <!-- Name -->
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+        <br>
+        <!-- Email -->
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+        <br>
+        <!-- Phone Number -->
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" />
+        </div>
+        <br>
+        <!-- send message -->
+        <div>
+            <label for="message"></label>
+            <textarea name="message" id="" cols="50" rows="05" placeholder="Tell us more about Yourself"></textarea>
+        </div>
+        <br>
+        <!-- select from an option -->
+        <div>
+            <label for="job">Choose your Job tittle</label>
+            <select id="job">
+                <option value="">Seect a Job</option>
+                <option value="Web Developer">Web Developer</option>
+                <option value="Web Designer">Web Designer</option>
+                <option value="UX/UI Designer">UX/UI Designer</option>
+                <option value="Graphic Designer">Graphic Designer</option>
+                <option value="Mobile App Developer">Mobile App Developer</option>
+                <option value="Other">Other</option>
+            </select>
+
+        </div>
+        <br>
+        <!-- Age of the user -->
+        <div>
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Enter your Age" />
+        </div>
+        <br>
+        <!-- selction of fav fruit -->
+        <div>
+            <label>Choose your fav fruits</label> <br>
+            <membership>
+                <label for="membership">Pinnaple</label>
+                <input type="checkbox" id="membership">
+
+                <label for="membership">Apple</label>
+                <input type="checkbox" id="membership">
+
+                <label for="membership">Orange</label>
+                <input type="checkbox" id="membership">
+            </membership>
+        </div>
+        <br>
+        <!-- Gender -->
+        <div>
+            <label for="Gender"></label><br>
+            <membership>
+                <label for="membership">Male</label>
+                <input type="radio" id="membership">
+
+                <label for="membership">Female</label>
+                <input type="radio" id="membership" />
+            </membership>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+
+    </form>
+</body>
+
+</html>

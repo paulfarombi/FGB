@@ -1,0 +1,62 @@
+body{
+    background-color: magenta;
+    font-family: "montserrat", sans-serif;
+    font-size: 14px;
+}
+
+/* Styling the NavBar*/
+
+.navbar{
+    list-style: none;
+    background-color: mediumaquamarine;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+}
+.navbar li{
+    float: right;
+}
+
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    color: red;
+}
+
+.side-menu{
+    list-style: none;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid springgreen;
+    border-radius: 10px;
+    width: 300px;
+    overflow: auto;
+}
+
+.side-menu li{
+    display: list-item;
+    font-size: 18px;
+    line-height: 2.4em;
+    border-bottom: 1px dotted darkolivegreen;
+}
+
+.side-menu li a{
+    display: block;
+    color: black;
+    text-align: 14px 16px;
+    text-decoration:none;
+    overflow: auto;
+}
+.side-menu li:last-child{
+border-bottom: none;
+}
+
+.side-menu li a:hover{
+    color: rgb(6, 134, 156);
+}
